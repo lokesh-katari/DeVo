@@ -15,8 +15,7 @@ const nextConfig = {
     },
     compiler:{
         removeConsole:false
-    },
-    distDir:"dist"
+    }
   };
   
   module.exports = nextConfig;
