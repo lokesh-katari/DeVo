@@ -5,7 +5,7 @@
     "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check",
     "dev": "next dev",
     "build": "next build",
-    "start":"next start"
+    "start":"node .next/standalone/server.js"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.30.0",
